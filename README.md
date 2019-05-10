@@ -26,36 +26,77 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
+
+
+
+
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+
+.foreach calls a function on each element in an array, it however does not return anything. It can mutate the items in the array though.
+
+.map actually uses the returned elements in an array and creates a new array of the same size with the new items.
+
+
+
 2. What is the difference between a function and a method?
+
+a function returns a value(s) from a single or a bunch of inputs.
+
+A method is similar to a function but it is internal to an class. It is used only with OOP.
+
+
 
 3. What is closure?
 
+Finally getting over seeing your ex around town with.. j/k
+
+Closure is where an inner function has access to the functions outer variables as well as its own, it cannot however dive "inwards"  only "outwards"
+
+
+
 4. Describe the four rules of the 'this' keyword.
 
+Window or global binding- This is where the value of "this" is set to the global scale and is generally dicouraged.
+
+Implicit binding- when a function is called with a word.word, the value to the left of the "." is what THIS is implicitly bound to
+
+New binding- When a constructor function is used, THIS is refers to the value of that specific new object created and is then returned by the constructor function.
+
+Explicit binding- objects can be called explicitly with the using .call and .apply, directly giving THIS value
+
+
 5. Why do we need super() in an extended class?
+
+This allows the child class to INHERIT and call the parent class' functions.
+
+without super, there is not correlation between the two and they will be on the same level.
+
+
+
+
+
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
